@@ -28,15 +28,15 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 1-🇩🇪-Germany(Linode)
-      - 3-🇫🇷-France(OVH)
+      - 2-🇫🇷-France(OVH)
       - 3-🇪🇸-Spain
-      - 2-🇳🇱-Netherland
-      - 4-🇩🇪-Germany
-      - 5-🇬🇧-London
-      - 6-🇵🇱-Poland(OVH)
-      - 7-🇫🇮-Finland
-      - 8-🇲🇩-Moldova
-      - 9-🇨🇭-Switzerland
+      - 4-🇳🇱-Netherland
+      - 5-🇩🇪-Germany
+      - 6-🇬🇧-London
+      - 7-🇵🇱-Poland(OVH)
+      - 8-🇫🇮-Finland
+      - 9-🇲🇩-Moldova
+      - 10-🇨🇭-Switzerland
       - USA-🇺🇸-California(M247)
       - USA-🇺🇸-California
       - USA-🇺🇸-Georgia
@@ -49,107 +49,107 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 1-🇩🇪Germany(Linode)_1
-      - 3-🇫🇷France(OVH)_2
-      - 3-🇪🇸Spain_3
-      - 2-🇳🇱Netherland_4
-      - 4-🇩🇪Germany_5
-      - 5-🇬🇧London_6
-      - 6-🇵🇱Poland(OVH)_7
-      - 7-🇫🇮Finland_8
-      - 8-🇲🇩Moldova_9
-      - 9-🇨🇭Switzerland_10
-      - USA🇺🇸California(M247)_11
-      - USA🇺🇸California_12
-      - USA🇺🇸Georgia_13
-      - USA🇺🇸NewYork_14
-      - USA🇺🇸Seattle_15
-      - USA🇺🇸WashingtonDC_16
+      - 1-🇩🇪-Germany(Linode)
+      - 2-🇫🇷-France(OVH)
+      - 3-🇪🇸-Spain
+      - 4-🇳🇱-Netherland
+      - 5-🇩🇪-Germany
+      - 6-🇬🇧-London
+      - 7-🇵🇱-Poland(OVH)
+      - 8-🇫🇮-Finland
+      - 9-🇲🇩-Moldova
+      - 10-🇨🇭-Switzerland
+      - USA-🇺🇸-California(M247)
+      - USA-🇺🇸-California
+      - USA-🇺🇸-Georgia
+      - USA-🇺🇸-NewYork
+      - USA-🇺🇸-Seattle
+      - USA-🇺🇸-WashingtonDC
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 1-🇩🇪Germany(Linode)_1
-      - 3-🇫🇷France(OVH)_2
-      - 3-🇪🇸Spain_3
-      - 2-🇳🇱Netherland_4
-      - 4-🇩🇪Germany_5
-      - 5-🇬🇧London_6
-      - 6-🇵🇱Poland(OVH)_7
-      - 7-🇫🇮Finland_8
-      - 8-🇲🇩Moldova_9
-      - 9-🇨🇭Switzerland_10
-      - USA🇺🇸California(M247)_11
-      - USA🇺🇸California_12
-      - USA🇺🇸Georgia_13
-      - USA🇺🇸NewYork_14
-      - USA🇺🇸Seattle_15
-      - USA🇺🇸WashingtonDC_16
+      - 1-🇩🇪-Germany(Linode)
+      - 2-🇫🇷-France(OVH)
+      - 3-🇪🇸-Spain
+      - 4-🇳🇱-Netherland
+      - 5-🇩🇪-Germany
+      - 6-🇬🇧-London
+      - 7-🇵🇱-Poland(OVH)
+      - 8-🇫🇮-Finland
+      - 9-🇲🇩-Moldova
+      - 10-🇨🇭-Switzerland
+      - USA-🇺🇸-California(M247)
+      - USA-🇺🇸-California
+      - USA-🇺🇸-Georgia
+      - USA-🇺🇸-NewYork
+      - USA-🇺🇸-Seattle
+      - USA-🇺🇸-WashingtonDC
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 1-🇩🇪Germany(Linode)_1
-      - 3-🇫🇷France(OVH)_2
-      - 3-🇪🇸Spain_3
-      - 2-🇳🇱Netherland_4
-      - 4-🇩🇪Germany_5
-      - 5-🇬🇧London_6
-      - 6-🇵🇱Poland(OVH)_7
-      - 7-🇫🇮Finland_8
-      - 8-🇲🇩Moldova_9
-      - 9-🇨🇭Switzerland_10
-      - USA🇺🇸California(M247)_11
-      - USA🇺🇸California_12
-      - USA🇺🇸Georgia_13
-      - USA🇺🇸NewYork_14
-      - USA🇺🇸Seattle_15
-      - USA🇺🇸WashingtonDC_16
+      - 1-🇩🇪-Germany(Linode)
+      - 2-🇫🇷-France(OVH)
+      - 3-🇪🇸-Spain
+      - 4-🇳🇱-Netherland
+      - 5-🇩🇪-Germany
+      - 6-🇬🇧-London
+      - 7-🇵🇱-Poland(OVH)
+      - 8-🇫🇮-Finland
+      - 9-🇲🇩-Moldova
+      - 10-🇨🇭-Switzerland
+      - USA-🇺🇸-California(M247)
+      - USA-🇺🇸-California
+      - USA-🇺🇸-Georgia
+      - USA-🇺🇸-NewYork
+      - USA-🇺🇸-Seattle
+      - USA-🇺🇸-WashingtonDC
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 1-🇩🇪Germany(Linode)_1
-      - 3-🇫🇷France(OVH)_2
-      - 3-🇪🇸Spain_3
-      - 2-🇳🇱Netherland_4
-      - 4-🇩🇪Germany_5
-      - 5-🇬🇧London_6
-      - 6-🇵🇱Poland(OVH)_7
-      - 7-🇫🇮Finland_8
-      - 8-🇲🇩Moldova_9
-      - 9-🇨🇭Switzerland_10
-      - USA🇺🇸California(M247)_11
-      - USA🇺🇸California_12
-      - USA🇺🇸Georgia_13
-      - USA🇺🇸NewYork_14
-      - USA🇺🇸Seattle_15
-      - USA🇺🇸WashingtonDC_16
+      - 1-🇩🇪-Germany(Linode)
+      - 2-🇫🇷-France(OVH)
+      - 3-🇪🇸-Spain
+      - 4-🇳🇱-Netherland
+      - 5-🇩🇪-Germany
+      - 6-🇬🇧-London
+      - 7-🇵🇱-Poland(OVH)
+      - 8-🇫🇮-Finland
+      - 9-🇲🇩-Moldova
+      - 10-🇨🇭-Switzerland
+      - USA-🇺🇸-California(M247)
+      - USA-🇺🇸-California
+      - USA-🇺🇸-Georgia
+      - USA-🇺🇸-NewYork
+      - USA-🇺🇸-Seattle
+      - USA-🇺🇸-WashingtonDC
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 1-🇩🇪Germany(Linode)_1
-      - 3-🇫🇷France(OVH)_2
-      - 3-🇪🇸Spain_3
-      - 2-🇳🇱Netherland_4
-      - 4-🇩🇪Germany_5
-      - 5-🇬🇧London_6
-      - 6-🇵🇱Poland(OVH)_7
-      - 7-🇫🇮Finland_8
-      - 8-🇲🇩Moldova_9
-      - 9-🇨🇭Switzerland_10
-      - USA🇺🇸California(M247)_11
-      - USA🇺🇸California_12
-      - USA🇺🇸Georgia_13
-      - USA🇺🇸NewYork_14
-      - USA🇺🇸Seattle_15
-      - USA🇺🇸WashingtonDC_16
+      - 1-🇩🇪-Germany(Linode)
+      - 2-🇫🇷-France(OVH)
+      - 3-🇪🇸-Spain
+      - 4-🇳🇱-Netherland
+      - 5-🇩🇪-Germany
+      - 6-🇬🇧-London
+      - 7-🇵🇱-Poland(OVH)
+      - 8-🇫🇮-Finland
+      - 9-🇲🇩-Moldova
+      - 10-🇨🇭-Switzerland
+      - USA-🇺🇸-California(M247)
+      - USA-🇺🇸-California
+      - USA-🇺🇸-Georgia
+      - USA-🇺🇸-NewYork
+      - USA-🇺🇸-Seattle
+      - USA-🇺🇸-WashingtonDC
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -172,22 +172,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 1-🇩🇪Germany(Linode)_1
-      - 3-🇫🇷France(OVH)_2
-      - 3-🇪🇸Spain_3
-      - 2-🇳🇱Netherland_4
-      - 4-🇩🇪Germany_5
-      - 5-🇬🇧London_6
-      - 6-🇵🇱Poland(OVH)_7
-      - 7-🇫🇮Finland_8
-      - 8-🇲🇩Moldova_9
-      - 9-🇨🇭Switzerland_10
-      - USA🇺🇸California(M247)_11
-      - USA🇺🇸California_12
-      - USA🇺🇸Georgia_13
-      - USA🇺🇸NewYork_14
-      - USA🇺🇸Seattle_15
-      - USA🇺🇸WashingtonDC_16
+      - 1-🇩🇪-Germany(Linode)
+      - 2-🇫🇷-France(OVH)
+      - 3-🇪🇸-Spain
+      - 4-🇳🇱-Netherland
+      - 5-🇩🇪-Germany
+      - 6-🇬🇧-London
+      - 7-🇵🇱-Poland(OVH)
+      - 8-🇫🇮-Finland
+      - 9-🇲🇩-Moldova
+      - 10-🇨🇭-Switzerland
+      - USA-🇺🇸-California(M247)
+      - USA-🇺🇸-California
+      - USA-🇺🇸-Georgia
+      - USA-🇺🇸-NewYork
+      - USA-🇺🇸-Seattle
+      - USA-🇺🇸-WashingtonDC
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
