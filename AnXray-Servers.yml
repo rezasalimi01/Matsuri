@@ -5,151 +5,151 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"1-🇩🇪Germany(Linode)_1","server":"139.162.189.117","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"3-🇫🇷France(OVH)_2","server":"217.182.199.168","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"3-🇪🇸Spain_3","server":"92.38.171.103","port":50004,"type":"ss","cipher":"aes-256-cfb","password":"4415934295"}
-  - {"name":"2-🇳🇱Netherland_4","server":"91.232.105.253","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"4-🇩🇪Germany_5","server":"193.108.118.36","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"5-🇬🇧London_6","server":"172.99.190.188","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"6-🇵🇱Poland(OVH)_7","server":"51.77.52.206","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"7-🇫🇮Finland_8","server":"95.216.5.254","port":50004,"type":"ss","cipher":"aes-256-cfb","password":"4415934295"}
-  - {"name":"8-🇲🇩Moldova_9","server":"192.121.87.89","port":989,"type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"9-🇨🇭Switzerland_10","server":"37.120.213.230","port":50004,"type":"ss","cipher":"aes-256-cfb","password":"4415934295"}
-  - {"name":"USA🇺🇸California(M247)_11","server":"193.239.87.134","port":809,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"name":"USA🇺🇸California_12","server":"167.88.61.70","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"USA🇺🇸Georgia_13","server":"167.88.63.64","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"USA🇺🇸NewYork_14","server":"169.197.141.91","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"USA🇺🇸Seattle_15","server":"38.143.66.112","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"USA🇺🇸WashingtonDC_16","server":"38.143.66.71","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇩🇪_Germany_(Linode)_1","server":"139.162.189.117","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇫🇷_France_(OVH)_2","server":"217.182.199.168","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇪🇸_Spain_3","server":"92.38.171.103","port":50004,"type":"ss","cipher":"aes-256-cfb","password":"4415934295"}
+  - {"name":"🇳🇱_Netherland_4","server":"91.232.105.253","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇩🇪_Germany_5","server":"193.108.118.36","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇬🇧_London_6","server":"172.99.190.188","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇵🇱_Poland_(OVH)_7","server":"51.77.52.206","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇫🇮_Finland_8","server":"95.216.5.254","port":50004,"type":"ss","cipher":"aes-256-cfb","password":"4415934295"}
+  - {"name":"🇲🇩_Moldova_9","server":"192.121.87.89","port":989,"type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇨🇭_Switzerland_10","server":"37.120.213.230","port":50004,"type":"ss","cipher":"aes-256-cfb","password":"4415934295"}
+  - {"name":"USA_🇺🇸_California_(M247)_11","server":"193.239.87.134","port":809,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"USA_🇺🇸_California_12","server":"167.88.61.70","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"USA_🇺🇸_Georgia_13","server":"167.88.63.64","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"USA_🇺🇸_NewYork_14","server":"169.197.141.91","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"USA_🇺🇸_Seattle_15","server":"38.143.66.112","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"USA_🇺🇸_Washington_16","server":"38.143.66.71","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 1-🇩🇪-Germany(Linode)
-      - 2-🇫🇷-France(OVH)
-      - 3-🇪🇸-Spain
-      - 4-🇳🇱-Netherland
-      - 5-🇩🇪-Germany
-      - 6-🇬🇧-London
-      - 7-🇵🇱-Poland(OVH)
-      - 8-🇫🇮-Finland
-      - 9-🇲🇩-Moldova
-      - 10-🇨🇭-Switzerland
-      - USA-🇺🇸-California(M247)
-      - USA-🇺🇸-California
-      - USA-🇺🇸-Georgia
-      - USA-🇺🇸-NewYork
-      - USA-🇺🇸-Seattle
-      - USA-🇺🇸-WashingtonDC
+      - 🇩🇪_Germany_(Linode)_1
+      - 🇫🇷_France_(OVH)_2
+      - 🇪🇸_Spain_3
+      - 🇳🇱_Netherland_4
+      - 🇩🇪_Germany_5
+      - 🇬🇧_London_6
+      - 🇵🇱_Poland_(OVH)_7
+      - 🇫🇮_Finland_8
+      - 🇲🇩_Moldova_9
+      - 🇨🇭_Switzerland_10
+      - USA_🇺🇸_California_(M247)_11
+      - USA_🇺🇸_California_12
+      - USA_🇺🇸_Georgia_13
+      - USA_🇺🇸_NewYork_14
+      - USA_🇺🇸_Seattle_15
+      - USA_🇺🇸_Washington_16
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 1-🇩🇪-Germany(Linode)
-      - 2-🇫🇷-France(OVH)
-      - 3-🇪🇸-Spain
-      - 4-🇳🇱-Netherland
-      - 5-🇩🇪-Germany
-      - 6-🇬🇧-London
-      - 7-🇵🇱-Poland(OVH)
-      - 8-🇫🇮-Finland
-      - 9-🇲🇩-Moldova
-      - 10-🇨🇭-Switzerland
-      - USA-🇺🇸-California(M247)
-      - USA-🇺🇸-California
-      - USA-🇺🇸-Georgia
-      - USA-🇺🇸-NewYork
-      - USA-🇺🇸-Seattle
-      - USA-🇺🇸-WashingtonDC
+      - 🇩🇪_Germany_(Linode)_1
+      - 🇫🇷_France_(OVH)_2
+      - 🇪🇸_Spain_3
+      - 🇳🇱_Netherland_4
+      - 🇩🇪_Germany_5
+      - 🇬🇧_London_6
+      - 🇵🇱_Poland_(OVH)_7
+      - 🇫🇮_Finland_8
+      - 🇲🇩_Moldova_9
+      - 🇨🇭_Switzerland_10
+      - USA_🇺🇸_California_(M247)_11
+      - USA_🇺🇸_California_12
+      - USA_🇺🇸_Georgia_13
+      - USA_🇺🇸_NewYork_14
+      - USA_🇺🇸_Seattle_15
+      - USA_🇺🇸_Washington_16
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 1-🇩🇪-Germany(Linode)
-      - 2-🇫🇷-France(OVH)
-      - 3-🇪🇸-Spain
-      - 4-🇳🇱-Netherland
-      - 5-🇩🇪-Germany
-      - 6-🇬🇧-London
-      - 7-🇵🇱-Poland(OVH)
-      - 8-🇫🇮-Finland
-      - 9-🇲🇩-Moldova
-      - 10-🇨🇭-Switzerland
-      - USA-🇺🇸-California(M247)
-      - USA-🇺🇸-California
-      - USA-🇺🇸-Georgia
-      - USA-🇺🇸-NewYork
-      - USA-🇺🇸-Seattle
-      - USA-🇺🇸-WashingtonDC
+      - 🇩🇪_Germany_(Linode)_1
+      - 🇫🇷_France_(OVH)_2
+      - 🇪🇸_Spain_3
+      - 🇳🇱_Netherland_4
+      - 🇩🇪_Germany_5
+      - 🇬🇧_London_6
+      - 🇵🇱_Poland_(OVH)_7
+      - 🇫🇮_Finland_8
+      - 🇲🇩_Moldova_9
+      - 🇨🇭_Switzerland_10
+      - USA_🇺🇸_California_(M247)_11
+      - USA_🇺🇸_California_12
+      - USA_🇺🇸_Georgia_13
+      - USA_🇺🇸_NewYork_14
+      - USA_🇺🇸_Seattle_15
+      - USA_🇺🇸_Washington_16
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 1-🇩🇪-Germany(Linode)
-      - 2-🇫🇷-France(OVH)
-      - 3-🇪🇸-Spain
-      - 4-🇳🇱-Netherland
-      - 5-🇩🇪-Germany
-      - 6-🇬🇧-London
-      - 7-🇵🇱-Poland(OVH)
-      - 8-🇫🇮-Finland
-      - 9-🇲🇩-Moldova
-      - 10-🇨🇭-Switzerland
-      - USA-🇺🇸-California(M247)
-      - USA-🇺🇸-California
-      - USA-🇺🇸-Georgia
-      - USA-🇺🇸-NewYork
-      - USA-🇺🇸-Seattle
-      - USA-🇺🇸-WashingtonDC
+      - 🇩🇪_Germany_(Linode)_1
+      - 🇫🇷_France_(OVH)_2
+      - 🇪🇸_Spain_3
+      - 🇳🇱_Netherland_4
+      - 🇩🇪_Germany_5
+      - 🇬🇧_London_6
+      - 🇵🇱_Poland_(OVH)_7
+      - 🇫🇮_Finland_8
+      - 🇲🇩_Moldova_9
+      - 🇨🇭_Switzerland_10
+      - USA_🇺🇸_California_(M247)_11
+      - USA_🇺🇸_California_12
+      - USA_🇺🇸_Georgia_13
+      - USA_🇺🇸_NewYork_14
+      - USA_🇺🇸_Seattle_15
+      - USA_🇺🇸_Washington_16
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 1-🇩🇪-Germany(Linode)
-      - 2-🇫🇷-France(OVH)
-      - 3-🇪🇸-Spain
-      - 4-🇳🇱-Netherland
-      - 5-🇩🇪-Germany
-      - 6-🇬🇧-London
-      - 7-🇵🇱-Poland(OVH)
-      - 8-🇫🇮-Finland
-      - 9-🇲🇩-Moldova
-      - 10-🇨🇭-Switzerland
-      - USA-🇺🇸-California(M247)
-      - USA-🇺🇸-California
-      - USA-🇺🇸-Georgia
-      - USA-🇺🇸-NewYork
-      - USA-🇺🇸-Seattle
-      - USA-🇺🇸-WashingtonDC
+      - 🇩🇪_Germany_(Linode)_1
+      - 🇫🇷_France_(OVH)_2
+      - 🇪🇸_Spain_3
+      - 🇳🇱_Netherland_4
+      - 🇩🇪_Germany_5
+      - 🇬🇧_London_6
+      - 🇵🇱_Poland_(OVH)_7
+      - 🇫🇮_Finland_8
+      - 🇲🇩_Moldova_9
+      - 🇨🇭_Switzerland_10
+      - USA_🇺🇸_California_(M247)_11
+      - USA_🇺🇸_California_12
+      - USA_🇺🇸_Georgia_13
+      - USA_🇺🇸_NewYork_14
+      - USA_🇺🇸_Seattle_15
+      - USA_🇺🇸_Washington_16
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 1-🇩🇪-Germany(Linode)
-      - 2-🇫🇷-France(OVH)
-      - 3-🇪🇸-Spain
-      - 4-🇳🇱-Netherland
-      - 5-🇩🇪-Germany
-      - 6-🇬🇧-London
-      - 7-🇵🇱-Poland(OVH)
-      - 8-🇫🇮-Finland
-      - 9-🇲🇩-Moldova
-      - 10-🇨🇭-Switzerland
-      - USA-🇺🇸-California(M247)
-      - USA-🇺🇸-California
-      - USA-🇺🇸-Georgia
-      - USA-🇺🇸-NewYork
-      - USA-🇺🇸-Seattle
-      - USA-🇺🇸-WashingtonDC
+      - 🇩🇪_Germany_(Linode)_1
+      - 🇫🇷_France_(OVH)_2
+      - 🇪🇸_Spain_3
+      - 🇳🇱_Netherland_4
+      - 🇩🇪_Germany_5
+      - 🇬🇧_London_6
+      - 🇵🇱_Poland_(OVH)_7
+      - 🇫🇮_Finland_8
+      - 🇲🇩_Moldova_9
+      - 🇨🇭_Switzerland_10
+      - USA_🇺🇸_California_(M247)_11
+      - USA_🇺🇸_California_12
+      - USA_🇺🇸_Georgia_13
+      - USA_🇺🇸_NewYork_14
+      - USA_🇺🇸_Seattle_15
+      - USA_🇺🇸_Washington_16
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -172,22 +172,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 1-🇩🇪-Germany(Linode)
-      - 2-🇫🇷-France(OVH)
-      - 3-🇪🇸-Spain
-      - 4-🇳🇱-Netherland
-      - 5-🇩🇪-Germany
-      - 6-🇬🇧-London
-      - 7-🇵🇱-Poland(OVH)
-      - 8-🇫🇮-Finland
-      - 9-🇲🇩-Moldova
-      - 10-🇨🇭-Switzerland
-      - USA-🇺🇸-California(M247)
-      - USA-🇺🇸-California
-      - USA-🇺🇸-Georgia
-      - USA-🇺🇸-NewYork
-      - USA-🇺🇸-Seattle
-      - USA-🇺🇸-WashingtonDC
+      - 🇩🇪_Germany_(Linode)_1
+      - 🇫🇷_France_(OVH)_2
+      - 🇪🇸_Spain_3
+      - 🇳🇱_Netherland_4
+      - 🇩🇪_Germany_5
+      - 🇬🇧_London_6
+      - 🇵🇱_Poland_(OVH)_7
+      - 🇫🇮_Finland_8
+      - 🇲🇩_Moldova_9
+      - 🇨🇭_Switzerland_10
+      - USA_🇺🇸_California_(M247)_11
+      - USA_🇺🇸_California_12
+      - USA_🇺🇸_Georgia_13
+      - USA_🇺🇸_NewYork_14
+      - USA_🇺🇸_Seattle_15
+      - USA_🇺🇸_Washington_16
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
