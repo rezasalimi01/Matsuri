@@ -27,7 +27,7 @@ proxies:
   - {name: USA 🇺🇸 Seattle, server: 38.143.66.112, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: USA 🇺🇸 Washington DC, server: 38.143.66.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 proxy-groups:
-  - name: 🔹 By(@RezaRL9)
+  - name: 📌 By(@RezaRL9)
     type: select
     proxies:
       - 1 - 🇩🇪 Germany (Linode)
@@ -54,4 +54,4 @@ proxy-groups:
       - USA 🇺🇸 Seattle
       - USA 🇺🇸 Washington DC
 rules:
- - MATCH,🔹 By(@RezaRL9)
+ - MATCH,📌 By(@RezaRL9)
