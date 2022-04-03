@@ -4,21 +4,18 @@ mode: Rule
 log-level: info
 proxies:
   - {name: 1 - 🇩🇪 Germany (Linode), server: 139.162.189.117, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 2 - 🇫🇷 France (OVH), server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 2 - 🇫🇷 France (OVH), server: 54.38.72.170, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: 3 - 🇳🇱 Netherland, server: 91.232.105.253, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 4 - 🇬🇧 London, server: 172.99.190.188, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 5 - 🇵🇱 Poland (OVH), server: 51.77.52.206, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 6 - 🇪🇸 Spain, server: 92.38.171.103, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295}
-  - {name: 7 - 🇩🇪 Germany, server: 193.108.118.36, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 8 - 🇫🇷 France (Dedibox), server: 163.172.110.153, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 9 - 🇬🇧 London (IO Smart), server: 78.129.253.9, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 10 - 🇨🇭 Switzerland, server: 37.120.213.230, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295}
-  - {name: 11 - 🇲🇩 Moldova, server: 192.121.87.89, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 12 - 🇫🇮 Finland, server: 95.216.5.254, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295}
-  - {name: 13 - 🇷🇺 Russia, server: 92.38.139.136, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 14 - 🇮🇹 Italy, server: 84.33.193.79, port: 18760, type: ss, cipher: aes-256-gcm, password: hg49$WH8943g3}
-  - {name: 15 - 🇧🇦 Bosnia & Herzegovina, server: 185.99.3.102, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 16 - 🇮🇳 India, server: 172.105.59.32, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 5 - 🇪🇸 Spain, server: 92.38.171.103, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295}
+  - {name: 6 - 🇩🇪 Germany, server: 193.108.118.36, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 7 - 🇫🇷 France (Dedibox), server: 163.172.110.153, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 8 - 🇬🇧 London (IO Smart), server: 78.129.253.9, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 9 - 🇨🇭 Switzerland, server: 37.120.213.230, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295}
+  - {name: 10 - 🇲🇩 Moldova, server: 192.121.87.89, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 11 - 🇮🇹 Italy, server: 84.33.193.79, port: 18760, type: ss, cipher: aes-256-gcm, password: hg49$WH8943g3}
+  - {name: 12 - 🇧🇦 Bosnia & Herzegovina, server: 185.99.3.102, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 13 - 🇮🇳 India, server: 172.105.59.32, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: USA 🇺🇸 California (M247), server: 193.239.87.134, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: USA 🇺🇸 California, server: 167.88.61.70, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: USA 🇺🇸 Chicago, server: 162.251.61.221, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
@@ -30,22 +27,20 @@ proxy-groups:
   - name: 📌 By(@RezaRL9)
     type: select
     proxies:
+      - ♻️ BESTPING(@BN_CHANLL)
       - 1 - 🇩🇪 Germany (Linode)
       - 2 - 🇫🇷 France (OVH)
       - 3 - 🇳🇱 Netherland
       - 4 - 🇬🇧 London
-      - 5 - 🇵🇱 Poland (OVH)
-      - 6 - 🇪🇸 Spain
-      - 7 - 🇩🇪 Germany
-      - 8 - 🇫🇷 France (Dedibox)
-      - 9 - 🇬🇧 London (IO Smart)
-      - 10 - 🇨🇭 Switzerland
-      - 11 - 🇲🇩 Moldova
-      - 12 - 🇫🇮 Finland
-      - 13 - 🇷🇺 Russia
-      - 14 - 🇮🇹 Italy
-      - 15 - 🇧🇦 Bosnia & Herzegovina
-      - 16 - 🇮🇳 India
+      - 5 - 🇪🇸 Spain
+      - 6 - 🇩🇪 Germany
+      - 7 - 🇫🇷 France (Dedibox)
+      - 8 - 🇬🇧 London (IO Smart)
+      - 9 - 🇨🇭 Switzerland
+      - 10 - 🇲🇩 Moldova
+      - 11 - 🇮🇹 Italy
+      - 12 - 🇧🇦 Bosnia & Herzegovina
+      - 13 - 🇮🇳 India
       - USA 🇺🇸 California (M247)
       - USA 🇺🇸 California
       - USA 🇺🇸 Chicago
@@ -54,4 +49,4 @@ proxy-groups:
       - USA 🇺🇸 Seattle
       - USA 🇺🇸 Washington DC
 rules:
- - MATCH,📌 By(@RezaRL9)
+ - MATCH,📌 By(@RezaRL9))
