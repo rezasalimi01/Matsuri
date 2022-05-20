@@ -4,40 +4,42 @@ mode: Rule
 log-level: info
 proxies:
   - {name: 1 - 🇩🇪 Germany, server: 85.114.138.92, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 2 - 🇬🇧 London (M247), server: 152.89.210.105, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt}
   - {name: 3 - 🇳🇱 Netherland, server: 91.232.105.253, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 2 - 🇫🇷 France (Scaleway), server: 163.172.110.153, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 4 - 🇫🇷 France (OVH), server: 54.38.72.170, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 5 - 🇬🇧 London, server: 172.99.190.188, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 4 - 🇫🇷 France (Scaleway), server: 62.210.113.98, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 5 - 🇫🇷 France (OVH), server: 54.38.72.170, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 6 - 🇺🇦 Ukraine, server: 77.120.115.235, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: Fowwipho}
   - {name: 7 - 🇷🇺 Russia, server: 194.34.239.105, port: 18760, type: ss, cipher: chacha20-ietf-poly1305, password: hg49$WH8943g3}
   - {name: 8 - 🇸🇪 Sweden, server: 196.196.156.122, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 6 - 🇺🇦 Ukraine, server: 77.120.115.235, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: Fowwipho}
-  - {name: USA 🇺🇸 (Dedfiber Datacenter), server: 104.237.224.144, port: 18760, type: ss, cipher: chacha20-ietf-poly1305, password: hg49$WH8943g3}
-  - {name: USA 🇺🇸 California, server: 167.88.61.70, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: USA 🇺🇸 Chicago, server: 162.251.61.221, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: USA 🇺🇸 New York, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 9 - 🇧🇦 Bosnia & Herzegovina, server: 185.99.3.102, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: USA 🇺🇸 (Dedfiber), server: 104.237.224.144, port: 18760, type: ss, cipher: chacha20-ietf-poly1305, password: hg49$WH8943g3}
+  - {name: USA 🇺🇸 (GT Host), server: 142.202.48.105, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: USA 🇺🇸 California, server: 167.88.61.70, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: USA 🇺🇸 New York, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: USA 🇺🇸 Chicago, server: 162.251.61.221, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: USA 🇺🇸 Georgia, server: 167.88.63.64, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: USA 🇺🇸 Seattle, server: 38.143.66.112, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: USA 🇺🇸 Washington DC, server: 38.143.66.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: USA 🇺🇸 Georgia, server: 167.88.63.64, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
 proxy-groups:
   - name: 📌 By(@RezaRL9)
     type: select
     proxies:
       - 1 - 🇩🇪 Germany
+      - 2 - 🇬🇧 London (M247)
       - 3 - 🇳🇱 Netherland
-      - 2 - 🇫🇷 France (Scaleway)
-      - 4 - 🇫🇷 France (OVH)
-      - 5 - 🇬🇧 London
+      - 4 - 🇫🇷 France (Scaleway)
+      - 5 - 🇫🇷 France (OVH)
+      - 6 - 🇺🇦 Ukraine
       - 7 - 🇷🇺 Russia
       - 8 - 🇸🇪 Sweden
-      - 6 - 🇺🇦 Ukraine
-      - USA 🇺🇸 (Dedfiber Datacenter)
-      - USA 🇺🇸 California
-      - USA 🇺🇸 Chicago
-      - USA 🇺🇸 New York
       - 9 - 🇧🇦 Bosnia & Herzegovina
+      - USA 🇺🇸 (Dedfiber)
+      - USA 🇺🇸 (GT Host)
+      - USA 🇺🇸 California
+      - USA 🇺🇸 New York
+      - USA 🇺🇸 Chicago
+      - USA 🇺🇸 Georgia
       - USA 🇺🇸 Seattle
       - USA 🇺🇸 Washington DC
-      - USA 🇺🇸 Georgia
 rules:
  - MATCH,📌 By(@RezaRL9)
