@@ -3,41 +3,41 @@ allow-lan: true
 mode: Rule
 log-level: info
 proxies:
-  - {name: 1 - 🇩🇪 Germany (Contabo), server: 167.86.116.89, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: srt1xudOe3tF}
-  - {name: 2 - 🇩🇪 Germany (Tele Host), server: 193.108.117.24, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 3 - 🇳🇱 Netherland, server: 172.99.188.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 4 - 🇬🇧 London, server: 172.99.190.7, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 5 - 🇫🇷 France (OVH), server: 145.239.1.100, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 6 - 🇫🇷 France (Scaleway), server: 62.210.113.98, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 7 - 🇺🇦 Ukraine - Kyiv, server: 77.120.115.235, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: Fowwipho}
-  - {name: 8 - 🇺🇦 Ukraine - Kharkiv, server: 176.103.61.162, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: IjBemsAg}
-  - {name: 9 - 🇷🇺 Russia, server: 194.34.239.105, port: 18760, type: ss, cipher: chacha20-ietf-poly1305, password: hg49$WH8943g3}
-  - {name: 10 - 🇸🇪 Sweden, server: 196.196.156.122, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: USA 🇺🇸 (Nexril), server: 38.107.226.146, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: USA 🇺🇸 Chicago, server: 162.251.61.221, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: USA 🇺🇸 Florida, server: 38.91.107.43, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: USA 🇺🇸 Miami, server: 142.202.48.83, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: USA 🇺🇸 New York, server: 142.202.48.7, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: USA 🇺🇸 California, server: 167.88.61.14, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 1 - 🇩🇪 Germany (Contabo)   ‌, server: 167.86.116.89, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: srt1xudOe3tF}
+  - {name: 2 - 🇩🇪 Germany (myLoc)   ‌, server: 93.186.201.158, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 3 - 🇳🇱 Netherland   ‌, server: 172.99.188.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 4 - 🇬🇧 London   ‌, server: 172.99.190.7, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 5 - 🇫🇷 France   ‌, server: 145.239.1.100, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 6 - 🇵🇱 Poland   ‌, server: 194.15.196.78, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 7 - 🇹🇷 Turkey   ‌, server: 188.132.209.15, port: 15303, type: ss, cipher: chacha20-ietf-poly1305, password: HZb52eFfHGeb}
+  - {name: 8 - 🇺🇦 Ukraine - Kyiv   ‌, server: 77.120.115.235, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: Fowwipho}
+  - {name: 9 - 🇺🇦 Ukraine - Kharkiv   ‌, server: 176.103.61.162, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: IjBemsAg}
+  - {name: 10 - 🇷🇺 Russia   ‌, server: 194.34.239.105, port: 18760, type: ss, cipher: chacha20-ietf-poly1305, password: hg49$WH8943g3}
+  - {name: USA 🇺🇸 (Nexril)   ‌, server: 38.107.226.146, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: USA 🇺🇸 California   ‌, server: 38.75.136.135, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: USA 🇺🇸 Miami   ‌, server: 142.202.48.83, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: USA 🇺🇸 New York   ‌, server: 142.202.48.7, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: USA 🇺🇸 Texas   ‌, server: 38.68.134.196, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: USA 🇺🇸 Washington   ‌, server: 38.143.66.87, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
 proxy-groups:
   - name: 📌 By(@RezaRL9)
     type: select
     proxies:
-      - 1 - 🇩🇪 Germany (Contabo)
-      - 2 - 🇩🇪 Germany (Tele Host)
-      - 3 - 🇳🇱 Netherland
-      - 4 - 🇬🇧 London
-      - 5 - 🇫🇷 France (OVH)
-      - 6 - 🇫🇷 France (Scaleway)
-      - 7 - 🇺🇦 Ukraine - Kyiv
-      - 8 - 🇺🇦 Ukraine - Kharkiv
-      - 9 - 🇷🇺 Russia
-      - 10 - 🇸🇪 Sweden
-      - USA 🇺🇸 (Nexril)
-      - USA 🇺🇸 Chicago
-      - USA 🇺🇸 Florida
-      - USA 🇺🇸 Miami
-      - USA 🇺🇸 New York
-      - USA 🇺🇸 California
+      - 1 - 🇩🇪 Germany (Contabo)   ‌
+      - 2 - 🇩🇪 Germany (myLoc)   ‌
+      - 3 - 🇳🇱 Netherland   ‌
+      - 4 - 🇬🇧 London   ‌
+      - 5 - 🇫🇷 France   ‌
+      - 6 - 🇵🇱 Poland   ‌
+      - 7 - 🇹🇷 Turkey   ‌
+      - 8 - 🇺🇦 Ukraine - Kyiv   ‌
+      - 9 - 🇺🇦 Ukraine - Kharkiv   ‌
+      - 10 - 🇷🇺 Russia   ‌
+      - USA 🇺🇸 (Nexril)   ‌
+      - USA 🇺🇸 California   ‌
+      - USA 🇺🇸 Miami   ‌
+      - USA 🇺🇸 New York   ‌
+      - USA 🇺🇸 Texas   ‌
+      - USA 🇺🇸 Washington   ‌  ‌
 rules:
  - MATCH,📌 By(@RezaRL9)
