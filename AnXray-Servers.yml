@@ -1,43 +1,39 @@
-mixed-port: 7890
-allow-lan: true
-mode: Rule
-log-level: info
-proxies:
-  - {name: 1 - 🇩🇪 Germany (Contabo)   ‌, server: 167.86.116.89, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: srt1xudOe3tF}
-  - {name: 2 - 🇩🇪 Germany (myLoc)   ‌, server: 93.186.201.158, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 3 - 🇳🇱 Netherland   ‌, server: 172.99.188.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 4 - 🇬🇧 London   ‌, server: 172.99.190.7, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 5 - 🇫🇷 France   ‌, server: 145.239.1.100, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 6 - 🇵🇱 Poland   ‌, server: 194.15.196.78, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 7 - 🇹🇷 Turkey   ‌, server: 188.132.209.15, port: 15303, type: ss, cipher: chacha20-ietf-poly1305, password: HZb52eFfHGeb}
-  - {name: 8 - 🇺🇦 Ukraine - Kyiv   ‌, server: 77.120.115.235, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: Fowwipho}
-  - {name: 9 - 🇺🇦 Ukraine - Kharkiv   ‌, server: 176.103.61.162, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: IjBemsAg}
-  - {name: 10 - 🇷🇺 Russia   ‌, server: 194.34.239.105, port: 18760, type: ss, cipher: chacha20-ietf-poly1305, password: hg49$WH8943g3}
-  - {name: USA 🇺🇸 (Nexril)   ‌, server: 38.107.226.146, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: USA 🇺🇸 California   ‌, server: 38.75.136.135, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: USA 🇺🇸 Miami   ‌, server: 142.202.48.83, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: USA 🇺🇸 New York   ‌, server: 142.202.48.7, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: USA 🇺🇸 Texas   ‌, server: 38.68.134.196, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: USA 🇺🇸 Washington   ‌, server: 38.143.66.87, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-proxy-groups:
-  - name: 📌 By(@RezaRL9)
-    type: select
-    proxies:
-      - 1 - 🇩🇪 Germany (Contabo)   ‌
-      - 2 - 🇩🇪 Germany (myLoc)   ‌
-      - 3 - 🇳🇱 Netherland   ‌
-      - 4 - 🇬🇧 London   ‌
-      - 5 - 🇫🇷 France   ‌
-      - 6 - 🇵🇱 Poland   ‌
-      - 7 - 🇹🇷 Turkey   ‌
-      - 8 - 🇺🇦 Ukraine - Kyiv   ‌
-      - 9 - 🇺🇦 Ukraine - Kharkiv   ‌
-      - 10 - 🇷🇺 Russia   ‌
-      - USA 🇺🇸 (Nexril)   ‌
-      - USA 🇺🇸 California   ‌
-      - USA 🇺🇸 Miami   ‌
-      - USA 🇺🇸 New York   ‌
-      - USA 🇺🇸 Texas   ‌
-      - USA 🇺🇸 Washington   ‌  ‌
-rules:
- - MATCH,📌 By(@RezaRL9)
+🗓 17 Khordad Update
+
+🔰 By @RezaRL9
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@85.114.138.92:809#1%20-%20%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%28myLoc%29%20%20%20%E2%80%8C%20
+
+ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@172.99.188.99:8119#2%20-%20%F0%9F%87%B3%F0%9F%87%B1%20Netherland%20%20%20%E2%80%8C%20
+
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@172.99.190.7:5601#3%20-%20%F0%9F%87%AC%F0%9F%87%A7%20London%20%20%20%E2%80%8C
+
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@145.239.1.100:5600#4%20-%20%F0%9F%87%AB%F0%9F%87%B7%20France%20%20%20%E2%80%8C
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpIWmI1MmVGZkhHZWI@188.132.209.15:15303#5%20-%20%F0%9F%87%B9%F0%9F%87%B7%20Turkey%20%20%20%E2%80%8C
+
+ss://YWVzLTI1Ni1nY206aGc0OSRXSDg5NDNnMw@84.33.193.79:18760#6%20-%20%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%20%20%E2%80%8C
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGb3d3aXBobw@77.120.115.235:444#7%20-%20%F0%9F%87%BA%F0%9F%87%A6%20Ukraine%20-%20Kyiv%20%20%20%E2%80%8C
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJakJlbXNBZw@176.103.61.162:444#8%20-%20%F0%9F%87%BA%F0%9F%87%A6%20Ukraine%20-%20Kharkiv%20%20%20%E2%80%8C
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoZzQ5JFdIODk0M2cz@194.34.239.105:18760#9%20-%20%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%20%20%E2%80%8C
+
+ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@142.202.48.7:2375#USA%20%F0%9F%87%BA%F0%9F%87%B8%20New%20York%20%20%20%E2%80%8C
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpzRjQzWHQyZ09OcWNnRlg1NjM@5.188.111.182:826#USA%20%F0%9F%87%BA%F0%9F%87%B8%20California%20%20%20%E2%80%8C
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpzRjQzWHQyZ09OcWNnRlg1NjM@92.38.169.196:826#USA%20%F0%9F%87%BA%F0%9F%87%B8%20New%20Jersey%20%20%20%E2%80%8C
+
+⭕ Join Telegram Channel for latest updates
+
+‌
+
+➡️  https://t.me/AXservers
+
+‌
+
+‌
+
+‌
